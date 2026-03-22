@@ -1,12 +1,12 @@
 cask "followerbar" do
-  version "1.0.11"
+  version "1.0.12"
 
   if Hardware::CPU.arm?
-    url "https://github.com/innomad-io/followerbar-releases/releases/download/v1.0.11/FollowerBar_1.0.10_aarch64.dmg"
-    sha256 "23e638a897519aa22cc9e28cde0674d7fedf7c3df831fa8dca95a82f467cd673"
+    url "https://github.com/innomad-io/followerbar-releases/releases/download/v1.0.12/FollowerBar_1.0.12_aarch64.dmg"
+    sha256 "5f582ca29e175fbdd43d52b4786e9515268a18df3e64e4fdde831bd287225785"
   else
-    url "https://github.com/innomad-io/followerbar-releases/releases/download/v1.0.11/FollowerBar_1.0.10_x64.dmg"
-    sha256 "f4f77270df25e1c1c4f4a5863cafbec6a88367a5a7f3d5ddbfbeb9201df5890b"
+    url "https://github.com/innomad-io/followerbar-releases/releases/download/v1.0.12/FollowerBar_1.0.12_x64.dmg"
+    sha256 "45ae5632820b5f51d826b9ce84f33a31a022f37e33ebc93bc7d3b58e2dfd2bca"
   end
 
   name "FollowerBar"
